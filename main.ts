@@ -448,7 +448,7 @@ namespace colorbit {
                     const index=15-i;
                     const a=pixeloffset1 >> index;
 
-                    var temp = i/5
+                    let temp = i/5
                     let targetValue = 0
                     if(temp%2==1){
                         let centerValue = temp*5+2
@@ -467,7 +467,7 @@ namespace colorbit {
                 for (let i = 16; i < 25; ++i) {
                     const index=31-i;
                     const a=pixeloffset2 >> index;
-                    var temp = i/5
+                    let temp = i/5
                     let targetValue = 0
                     if(temp%2==1){
                         let centerValue = temp*5+3
