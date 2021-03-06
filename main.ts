@@ -470,7 +470,7 @@ namespace colorbit {
                     let temp = i/5
                     let targetValue = 0
                     if(temp%2==1){
-                        let centerValue = temp*5+3
+                        let centerValue = temp*5+2
                         targetValue = i+2*(centerValue-i)
                     }else{
                         targetValue = i
